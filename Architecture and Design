@@ -1,0 +1,18 @@
+Architecture Overview:
+The Photo Editor Application adopts a layered architecture:
+1. User Interface Layer: Java Swing is utilized to create an intuitive GUI where users
+can
+access editing tools and manage files.
+2. Business Logic Layer: This layer contains the core processing logic, handling
+operations such as image transformations and filter applications.
+3. Data Layer: JDBC is employed for interaction with an SQL database, storing user
+profiles and edited image history.
+Design Diagrams:
+• UML Class Diagram: Outlines the structure of classes such as User, Editor, and
+DatabaseHandler.
+• Use Case Diagram: Demonstrates user interactions, including login, image upload,
+and
+editing functions.
+• Database Schema:
+o Users table: Stores user credentials and preferences.
+o Images table: Keeps records of saved images and associated metadata.
